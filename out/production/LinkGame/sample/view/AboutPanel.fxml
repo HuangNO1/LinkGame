@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AboutPanelController">
+   <children>
+      <JFXButton onAction="#Back" layoutX="221.0" layoutY="325.0" prefHeight="30.0" prefWidth="158.0" text="Back" />
+      <Label layoutX="108.0" layoutY="100.0" prefHeight="49.0" prefWidth="384.0" style="-fx-alignment: center;" text="This Game is designed by Center South University" />
+      <Label layoutX="212.0" layoutY="241.0" prefHeight="41.0" prefWidth="176.0" style="-fx-alignment: center;" text="\@Huang Po-Hsun" />
+   </children>
+</AnchorPane>

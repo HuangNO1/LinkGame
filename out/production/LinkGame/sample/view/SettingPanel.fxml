@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="351.0" prefWidth="471.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SettingPanelController">
+   <children>
+      <VBox layoutX="125.0" layoutY="75.0" prefHeight="202.0" prefWidth="247.0">
+         <children>
+            <JFXComboBox fx:id="Diffcult" prefHeight="47.0" prefWidth="247.0" promptText="Diffcult" style="-jfx-label-float: true;" unFocusColor="#f17508">
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+            </JFXComboBox>
+            <JFXComboBox fx:id="Music" prefHeight="50.0" prefWidth="247.0" promptText="Music" style="-jfx-label-float: true;" unFocusColor="#f17508" />
+         </children>
+      </VBox>
+      <JFXButton buttonType="RAISED" onAction="#Back" layoutX="167.0" layoutY="289.0" prefHeight="38.0" prefWidth="163.0" ripplerFill="#e54242" text="Back" textFill="#e83333" />
+   </children>
+</AnchorPane>

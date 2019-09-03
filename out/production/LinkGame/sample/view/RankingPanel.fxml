@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.RankingPanelController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="271.0" layoutY="438.0" onAction="#Back" prefHeight="42.0" prefWidth="161.0" ripplerFill="#ee6060" text="Back" textFill="#e83333" />
+      <ParallelCamera layoutX="86.0" layoutY="88.0" />
+      <PerspectiveCamera layoutX="70.0" layoutY="60.0" />
+      <JFXTabPane fx:id="tabPane" layoutX="-1.0" prefHeight="429.0" prefWidth="700.0" />
+      <JFXListView fx:id="easyOder" prefHeight="278.0" prefWidth="131.0" />
+      <JFXListView fx:id="normalOder" layoutX="-4.0" layoutY="60.0" prefHeight="278.0" prefWidth="148.0" />
+      <JFXListView fx:id="hardOder" layoutX="164.0" prefHeight="325.0" prefWidth="182.0" />
+   </children>
+</AnchorPane>
